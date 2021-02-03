@@ -101,4 +101,16 @@ Change the filename at the top to open a new file or save as.  + or - keys chang
     - Add code to get input and output to console.
     - Add interface for line and text operations.
 
+## Repository
+
+I forgot what I was doing with this, but now I remember.
+
+Branches:
+
+- master: nothing
+- c++: a C++ version of the program
+- java: a Java version of the program
+
+I've come back after some time and am now working on the Java version.
+
 
