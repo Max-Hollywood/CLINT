@@ -1,4 +1,4 @@
-/**
+package clint; /**
  * Handles the user input and returns it to the program.
  */
 
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Slig is an input handling class that asks for user input, parses it, and returns it to the caller.
+ * clint.Slig is an input handling class that asks for user input, parses it, and returns it to the caller.
  */
 public class Slig {
 	

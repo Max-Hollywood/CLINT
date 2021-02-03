@@ -1,4 +1,4 @@
-/**
+package clint; /**
  * Outputs to the console.
  */
 
@@ -15,6 +15,24 @@ public class Slog {
 	 */
 	public void slog(String output) {
 		System.out.println(" > " + output);
+	}
+	
+	/**
+	 * Print wrapper.
+	 *
+	 * @param output String
+	 */
+	public void print(String output) {
+		System.out.print(output);
+	}
+	
+	/**
+	 * Println wrapper.
+	 *
+	 * @param output String
+	 */
+	public void println(String output) {
+		System.out.println(output);
 	}
 	
 }

@@ -1,3 +1,5 @@
+package interfaces;
+
 /**
  * Text Operations
  **/
@@ -13,7 +15,7 @@ public interface TextOps {
 	 * @param content  String
 	 * @param before   boolean
 	 */
-//	addLine(int position, String content, boolean before);
+	public void addLine(int position, String content, boolean before);
 	
 	/**
 	 * Removes a line of text from the document, either deleting the line or just clearing it of text and keeping the
@@ -22,7 +24,7 @@ public interface TextOps {
 	 * @param position int
 	 * @param keep     boolean
 	 */
-//	delLine(int position, boolean keep) throws IndexOutOfBoundsException;
+	public void delLine(int position, boolean keep) throws IndexOutOfBoundsException;
 	
 	/**
 	 * Removes text of a line and replaces it with new content.
@@ -30,7 +32,7 @@ public interface TextOps {
 	 * @param position int
 	 * @param content  String
 	 */
-//	repLine(int position, String content) throws IndexOutOfBoundsException;
+	public void repLine(int position, String content) throws IndexOutOfBoundsException;
 	
 	/**
 	 * Adds text to the position inside the line.
@@ -38,7 +40,7 @@ public interface TextOps {
 	 * @param position int
 	 * @param content  String
 	 */
-//	addText(int position, String content) throws IndexOutOfBoundsException;
+	public void addText(int position, String content) throws IndexOutOfBoundsException;
 	
 	/**
 	 * Deletes text in the line at the starting position, to the end position.
@@ -46,7 +48,7 @@ public interface TextOps {
 	 * @param positionStart int
 	 * @param positionEnd   int
 	 */
-//	delText(int positionStart, int positionEnd) throws IndexOutOfBoundsException;
+	public void delText(int positionStart, int positionEnd) throws IndexOutOfBoundsException;
 	
 	/**
 	 * Removes text from a position in a line and replaces it with new content.
@@ -55,6 +57,6 @@ public interface TextOps {
 	 * @param positionEnd   int
 	 * @param content       int
 	 */
-//	repText(int positionStart, int positionEnd, String content) throws IndexOutOfBoundsException;
+	public void repText(int positionStart, int positionEnd, String content) throws IndexOutOfBoundsException;
 	
 }
